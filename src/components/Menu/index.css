@@ -1,0 +1,21 @@
+.menu-item {
+  display: inline;
+  padding: 10px 0;
+}
+
+.menu-item a{
+  color: #0f0f0f;
+  padding: 10px 15px;
+  outline: none;
+  text-decoration: none;
+  background-clip: padding-box;
+}
+
+.menu-item a:hover{
+  background: rgba(0,0,0,0.1);
+}
+
+.menu{
+  display: inline;
+  flex: 1;
+}

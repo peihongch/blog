@@ -1,0 +1,29 @@
+.header{
+  text-align: center;
+  max-width: 1040px;
+  flex: 1;
+  display: flex;
+  border-bottom: solid 1px rgba(0,0,0,0.05);
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.title-link{
+  display: flex;
+}
+
+.title-name{
+  color: #202020;
+  display: inline-block;
+  vertical-align: center;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 10px;
+}
