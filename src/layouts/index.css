@@ -1,4 +1,12 @@
 .header-container{
+  background: white;
   display: flex;
   justify-content: center;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.content-container{
+  padding-top: 70px;
 }

@@ -8,7 +8,9 @@ export default ({children}) => (
     <div className={styles["header-container"]}>
       <Header/>
     </div>
-    {children}
+    <div className={styles["content-container"]}>
+      {children}
+    </div>
     <Footer/>
   </div>
 )
