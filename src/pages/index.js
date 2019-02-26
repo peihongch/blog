@@ -4,10 +4,10 @@ import Article from '../components/Article'
 const articles = [
   {
     "id":1,
-    "title":"Thinking in Java",
-    "time":"2018.10.10",
+    "title":"Java编程思想",
+    "time":"2018-10-10",
     "tag":"Java",
-    "excerpt":"The book named Thinking in Java is popular in China."
+    "excerpt":"2018年马上就要结束了，让我们一起见证全世界Python的这一年。今年的榜单功能和去年相差不大，如果你看过去年榜单能够体会几个小改动，太忙了，也许明年能改版一下。榜单内容和去年有了一些区别：由...\n"
   },
   {
     "id":2,

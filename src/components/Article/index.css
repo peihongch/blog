@@ -1,28 +1,81 @@
-.article{
+.article {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 15px auto;
+  display: block;
+  color: #0f0f0f;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.article-title{
+.article-title {
+  font-size: 20px;
+  margin: 8px 0;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.article-title a{
+  text-decoration: none;
+  outline: none;
+  color: #202020;
+}
+
+.article-title a:hover{
+  color: #2196F3;
+}
+
+.article-meta {
+  font-size: 12px;
+  position: relative;
+  padding-right: 60px;
+  min-height: 30px;
+  color: #999999;
+  line-height: 30px;
+}
+
+.article-meta-slash {
+  padding: 0 5px;
+}
+
+.article-meta-time {
+  display: inline;
+}
+
+.article-meta-tag {
+  display: inline;
+  margin-right: 5px;
+  background-color: #f6f6f6;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+.article-meta-tag a{
+  text-decoration: none;
+  outline: none;
+  color: #999999;
+}
+
+.article-meta-tag:hover{
+  background-color: #efefef;
+}
+
+.article-excerpt {
+  font-size: 14px;
+  margin: 12px 0;
+  color: #999999;
+}
+
+.article-more {
 
 }
 
-.article-meta{
-
+.article-more a{
+  text-decoration: none;
+  outline: none;
+  color: #202020;
+  font-size: 14px;
 }
 
-.article-meta-time{
-
-}
-
-.article-meta-tag{
-
-}
-
-.article-excerpt{
-
-}
-
-.article-more{
-
+.article-more a:hover{
+  color: #2196F3;
 }
