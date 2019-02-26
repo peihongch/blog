@@ -1,5 +1,8 @@
 import React from 'react';
+import SearchPage from '../../components/SearchPage';
 
-export default ()=>(
-  <div>搜索</div>
+export default () => (
+  <div>
+    <SearchPage/>
+  </div>
 )

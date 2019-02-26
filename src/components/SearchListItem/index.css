@@ -1,0 +1,29 @@
+.search-list-item{
+
+}
+
+.search-list-item-title{
+  font-size: 19px;
+  font-weight: normal;
+}
+
+.search-list-item-title a,
+.search-list-item-title a:active,
+.search-list-item-title a:focus,
+.search-list-item-title a:visited{
+  text-decoration: none;
+  outline: none;
+  color: #202020;
+  font-family: Arial, serif;
+}
+
+.search-list-item-title a:hover{
+  color: #2196F3;
+}
+
+.search-list-item-excerpt{
+  color: rgba(0,0,0,0.4);
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

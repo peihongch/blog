@@ -1,6 +1,7 @@
 .menu-item {
   display: inline;
   padding: 10px 0;
+  font-family: Arial, serif;
 }
 
 .menu-item a,

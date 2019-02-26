@@ -1,0 +1,14 @@
+.search-list {
+  margin-left: -40px;
+}
+
+.search-list ul {
+  margin-top: 10px;
+}
+
+.search-list li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  line-height: 28px;
+  color: #202020;
+}
