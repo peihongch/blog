@@ -1,5 +1,10 @@
 import React from 'react';
+import styles from './index.css';
 
 export default () => (
-  <p>Footer</p>
+  <div className={styles["footer"]}>
+    <div className={styles["footer-inner"]}>
+
+    </div>
+  </div>
 )

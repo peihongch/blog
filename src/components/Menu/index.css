@@ -5,6 +5,7 @@
 
 .menu-item a{
   color: #0f0f0f;
+  font-size: 16px;
   padding: 10px 15px;
   outline: none;
   text-decoration: none;
@@ -18,4 +19,5 @@
 .menu{
   display: inline;
   flex: 1;
+  margin: 10px;
 }
