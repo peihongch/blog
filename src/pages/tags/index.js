@@ -1,5 +1,9 @@
 import React from 'react';
+import TagList from '../../components/TagList';
+import styles from './index.css';
 
 export default ()=>(
-  <div>标签</div>
+  <div className={styles["tag-list-container"]}>
+    <TagList/>
+  </div>
 )

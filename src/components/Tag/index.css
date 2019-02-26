@@ -1,0 +1,32 @@
+.tag-item{
+  display: inline;
+  margin: 3px;
+  padding: 6px;
+  border-radius: 3px;
+  background: #f6f6f6;
+  min-width: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+}
+
+.tag-item:hover{
+  background-color: #eeeeee;
+}
+
+.tag-item a,
+.tag-item a:active,
+.tag-item a:focus,
+.tag-item a:visited{
+  color: #555;
+  text-decoration: none;
+  outline: none;
+  margin: 3px;
+}
+
+.tag-item span{
+  display: inline;
+  color: #2196F3;
+  margin: 3px;
+}
