@@ -19,6 +19,7 @@ class Menu extends React.Component {
         <li className={styles["menu-item"]}><Link to={"/tags"} style={active_style("/tags")}>标签</Link></li>
         <li className={styles["menu-item"]}><Link to={"/search"} style={active_style("/search")}>搜索</Link></li>
         <li className={styles["menu-item"]}><Link to={"/lab"} style={active_style("/lab")}>实验室</Link></li>
+        <li className={styles["menu-item"]}><Link to={"/admin"} style={active_style("/admin")}>管理</Link></li>
       </ul>
     );
   }

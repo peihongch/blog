@@ -3,10 +3,14 @@
   padding: 10px 0;
 }
 
-.menu-item a{
+.menu-item a,
+.menu-item a:active,
+.menu-item a:focus,
+.menu-item a:visited
+{
   color: #0f0f0f;
   font-size: 16px;
-  padding: 10px 15px;
+  padding: 7px 14px;
   outline: none;
   text-decoration: none;
   background-clip: padding-box;

@@ -30,7 +30,7 @@ export default () => (
           <a href={"https://github.com/QQ876684433"} target={"_blank"}>steve_chph</a>
         </Popover>
         {", and inspired by "}
-        <a href={"http://http://www.dongwm.com/"} target={"_blank"}>dongwm</a>
+        <a href={"http://www.dongwm.com/"} target={"_blank"}>dongwm</a>
       </div>
     </div>
   </div>
