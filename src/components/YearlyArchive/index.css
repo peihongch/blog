@@ -1,0 +1,25 @@
+.yearly-archive{
+
+}
+
+.yearly-archive-year{
+  color: #0f0f0f;
+  margin-left: -16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.yearly-archive-year a,
+.yearly-archive-year a:active,
+.yearly-archive-year a:focus,
+.yearly-archive-year a:visited{
+  text-decoration: none;
+  outline: none;
+  color: #0f0f0f;
+}
+
+.yearly-archive-list{
+
+}

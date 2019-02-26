@@ -1,5 +1,8 @@
 import React from 'react';
+import ArchiveList from '../../components/ArchiveList';
 
 export default ()=>(
-  <div>归档</div>
+  <div>
+    <ArchiveList/>
+  </div>
 )
