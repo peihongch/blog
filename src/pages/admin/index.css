@@ -1,0 +1,10 @@
+.admin{
+  font-family: Arial, serif;
+}
+
+.admin h2{
+  font-style: italic;
+  margin-top: 100px;
+  text-align: center;
+  color: #999999;
+}

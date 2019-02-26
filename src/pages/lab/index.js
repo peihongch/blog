@@ -1,7 +1,8 @@
 import React from "react";
+import styles from './index.css';
 
 export default ()=>(
-  <div>
-    实验室
+  <div className={styles.lab}>
+    <h2>实验室里还什么都没有呢...</h2>
   </div>
 )
