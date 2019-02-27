@@ -1,12 +1,16 @@
 import React from "react";
 import styles from './index.css';
+import { Link } from 'umi';
 
 export default ({article})=>(
   <div className={styles.article}>
     <h2 className={styles["article-title"]}>
-      <a href={"#"}>
+      {/*<a href={"#"}>*/}
+        {/*{article.title}*/}
+      {/*</a>*/}
+      <Link to={"/article/0"}>
         {article.title}
-      </a>
+      </Link>
     </h2>
     <div className={styles["article-meta"]}>
       <div className={styles["article-meta-time"]}>{article.time}</div>
