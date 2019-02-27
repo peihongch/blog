@@ -1,50 +1,64 @@
 import React from 'react';
 import styles from './index.css';
-import marked from 'marked';
+import ArticleCategory from '../ArticleCategory';
+import Prism from 'prismjs';
+import "../../assets/css/prism.css";
 
 class ArticlePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       markdown: '',
+      html_content: '',
     };
-
-    marked.setOptions({
-      renderer: new marked.Renderer(),
-      gfm: true,
-      tables: true,
-      breaks: false,
-      pedantic: false,
-      sanitize: false,
-      smartLists: true,
-      smartypants: false,
-      xhtml: false,
-      // highlight: (code) =>  hljs.highlightAuto(code).value // 这段代码
-    });
   }
 
-  componentWillMount() {
-    const mdPath = require('../../assets/markdown/数据结构复习要点.md');
-
-    fetch(mdPath)
-      .then(response => {
-        return response.text();
-      })
-      .then(text => {
-        this.setState({
-          markdown: marked(text),
-        });
-      });
+  componentDidMount() {
+    Prism.highlightAll();
   }
 
   render() {
-    const {markdown} = this.state;
+    // const html = require('../../assets/html/数据结构复习要点.html');
+    const html = require('../../assets/html/复习要点.html');
+    fetch(html).then(response => response.text()).then(content => this.setState({ html_content: content }));
+
+    // const {article} = this.props;
+    const article = {
+      'id': 1,
+      'title': '2018年度Python榜单',
+      'time': '2018-12-31',
+      'tag': 'python',
+    };
 
     return (
-      <div>
-        <section>
-          <article dangerouslySetInnerHTML={{ __html: markdown }}/>
-        </section>
+      <div className={styles['article-page']}>
+        <ArticleCategory className={styles['article-page-category']}/>
+
+        <div className={styles['article-page-container']}>
+          <div className={styles['article-page-header']}>
+            <div className={styles['article-page-title']}>
+              {article.title}
+            </div>
+            <div className={styles['article-page-meta']}>
+              <div className={styles['article-page-meta-time']}>
+                {article.time}
+              </div>
+              {' / '}
+              <div className={styles['article-page-meta-tag']}>
+                <a href={'#'}>
+                  {article.tag}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles['article-page-content']}>
+            <section>
+              <article dangerouslySetInnerHTML={{ __html: this.state.html_content }}/>
+            </section>
+          </div>
+        </div>
+
       </div>
     );
   }

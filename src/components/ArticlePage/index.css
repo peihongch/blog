@@ -1,0 +1,117 @@
+.article-page {
+  margin-top: 10px;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 10px 20px;
+  font-family: Arial, serif;
+  color: #202020;
+  font-size: 16px;
+}
+
+.article-page-container{
+  display: inline;
+}
+
+.article-page-category{
+
+}
+
+.article-page-content {
+
+}
+
+/**
+  redefine the css of h1-h6
+ */
+.article-page h1{
+  display: block;
+  font-size: 2em;
+  margin: 0.67em 0;
+  font-weight: bold;
+}
+
+.article-page h2{
+  display: block;
+  font-size: 1.5em;
+  margin: 0.83em 0;
+  font-weight: bold;
+}
+
+.article-page h3 {
+  display: block;
+  font-size: 1.17em;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+.article-page h4 {
+  display: block;
+  font-size: 1em;
+  margin: 1.33em 0;
+  font-weight: bold;
+}
+
+.article-page h5 {
+  display: block;
+  font-size: .83em;
+  margin: 1.67em 0;
+  font-weight: bold;
+}
+
+.article-page h6 {
+  display: block;
+  font-size: .67em;
+  margin: 2.33em 0;
+  font-weight: bold;
+}
+.article-page-header {
+  margin: 10px 0 30px;
+}
+
+.article-page-title {
+  margin-bottom: 16px;
+  margin-top: 8px;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.article-page-meta {
+  font-size: 14px;
+  text-align: center;
+  min-height: 30px;
+  color: #999999;
+  line-height: 30px;
+}
+
+.article-page-meta-time {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.article-page-meta-tag {
+  display: inline;
+  padding: 3px 10px;
+  margin: 3px;
+  border-radius: 3px;
+  color: #555;
+  background-color: #f6f6f6;
+  line-height: 20px;
+  min-width: 30px;
+  height: 20px;
+}
+
+.article-page-meta-tag a,
+.article-page-meta-tag a:visited,
+.article-page-meta-tag a:focus,
+.article-page-meta-tag a:active{
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.article-page-meta-tag a:hover{
+  color: #2196F3;
+}

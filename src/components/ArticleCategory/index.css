@@ -1,0 +1,20 @@
+.article-category{
+  display: inline;
+  position: fixed;
+  width: 200px;
+  top: 80px;
+  right: 80px;
+  line-height: 28.8px;
+  z-index: 1;
+  font-size: 12px;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: auto;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #F6F6F6;
+}
+
+.article-category-list{
+
+}
