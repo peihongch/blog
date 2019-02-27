@@ -5,10 +5,7 @@ import { Link } from 'umi';
 export default ({article})=>(
   <div className={styles.article}>
     <h2 className={styles["article-title"]}>
-      {/*<a href={"#"}>*/}
-        {/*{article.title}*/}
-      {/*</a>*/}
-      <Link to={"/article/0"}>
+      <Link to={`/article/${article.id}`}>
         {article.title}
       </Link>
     </h2>
@@ -25,7 +22,7 @@ export default ({article})=>(
       {article.excerpt}
     </div>
     <div className={styles["article-more"]}>
-      <a href={"#"}>阅读全文 〉</a>
+      <Link to={`/article/${article.id}`}>阅读全文 〉</Link>
     </div>
   </div>
 )
