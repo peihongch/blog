@@ -1,8 +1,10 @@
 import React from 'react';
 import ArticlePage from '../../components/ArticlePage';
+import { connect } from 'react-redux';
 
-export default ({match})=>(
-  <div>
-    <ArticlePage/>
-  </div>
-)
+const mapStateToProps = state => ({
+  articles: state.articles,
+});
+
+export default connect(mapStateToProps)(ArticlePage);
+
