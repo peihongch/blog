@@ -5,10 +5,6 @@ import Prism from 'prismjs';
 import '../../assets/css/prism.css';
 import { withRouter } from 'umi';
 
-const getArticleById = (articles, articleId) => {
-  return articles[articleId];
-};
-
 @withRouter
 class ArticlePage extends React.Component {
   constructor(props) {
