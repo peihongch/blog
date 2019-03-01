@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
-import TagArticleList from '../../../components/TagArticleList';
+import TagPage from '../../../components/TagPage';
 
 @withRouter
 class App extends React.Component {
@@ -11,7 +11,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <TagArticleList tagId={tagId} tags={tags}/>
+        <TagPage tagId={tagId} tags={tags}/>
       </div>
     );
   }

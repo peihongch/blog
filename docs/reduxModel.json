@@ -1,0 +1,82 @@
+// redux数据流模型
+
+{
+  "store": {
+    "articles": {
+      "id": 0,
+      "title": "Thinking in Java",
+      "publish_time": "2018-10-20",
+      "tag": {
+        "tag_id": 0,
+        "tag_name": "Java"
+      },
+      "excerpt": "Java是世界上最好的语言"
+    },
+
+    "tagArticles": {
+      "id": 0,
+      "title": "Thinking in Java",
+      "publish_time": "2018-10-20"
+    },
+
+    "tags": {
+      "id": 0,
+      "name": "Java",
+      "total": 10
+    },
+
+    "search": {
+      "queryText": "Java语言",
+      "results":[
+        {
+          "id": 0,
+          "title": "Thinking in Java",
+          "excerpt": "Java是世界上最好的语言"
+        },
+        {
+          "id": 1,
+          "title": "Thinking in Java",
+          "excerpt": "Java是世界上最好的语言"
+        },
+        {
+          "id": 2,
+          "title": "Thinking in Java",
+          "excerpt": "Java是世界上最好的语言"
+        }
+      ]
+    },
+
+    "archives": {
+      "id": 0,
+      "year": 2019,
+      "articles": [
+        {
+          "id": 0,
+          "publish_time": "2018-10-20",
+          "title": "Thinking in Java"
+        },
+        {
+          "id": 1,
+          "publish_time": "2018-10-20",
+          "title": "Thinking in Java"
+        },
+        {
+          "id": 2,
+          "publish_time": "2018-10-20",
+          "title": "Thinking in Java"
+        }
+      ]
+    },
+
+    "articleToShow": {
+      "id": 0,
+      "title": "Thinking in Java",
+      "tag": {
+        "id": 0,
+        "name": "Java"
+      },
+      "publish_time": "2018-10-20",
+      "content": "Java是世界上最好的语言，Java编程思想是世界上最好的书。。。"
+    }
+  }
+}
