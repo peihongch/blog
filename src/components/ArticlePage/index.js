@@ -24,8 +24,9 @@ class ArticlePage extends React.Component {
     fetch(html).then(response => response.text()).then(content => this.setState({ html_content: content }));
 
     const { id } = this.props.match.params;
-    const { articles } = this.props;
+    const { articles,tags } = this.props;
     const article = articles[id];
+    const tag_name = tags[id].tag_name;
 
     return (
       <div className={styles['article-page']}>
@@ -42,8 +43,8 @@ class ArticlePage extends React.Component {
               </div>
               {' / '}
               <div className={styles['article-page-meta-tag']}>
-                <a href={'#'}>
-                  {article.tag}
+                <a href={`/tag/${article.tagId}`}>
+                  {tag_name}
                 </a>
               </div>
             </div>

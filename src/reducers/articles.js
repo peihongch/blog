@@ -3,7 +3,7 @@ const initArticles = [
     'id': 0,
     'title': 'Java编程思想',
     'time': '2018-10-10',
-    'tag': 'Java',
+    'tagId': 0,
     'excerpt': '2018年马上就要结束了，让我们一起见证全世界Python的这一年。今年的榜单功能和去年相差不大，如果你看过去年榜单能够体会几个小改动，太忙了，也许明年能改版一下。榜单内容和去年有了一些区别：由...\n',
     'content': '在计算机科学中，闭包（英语：Closure），又称词法闭包（Lexical Closure）或函数闭包（function closures），是引用了自由变量的函数。这个被引用的自由变量将和这个函数一同存在，即使已经离开了创造它的环境也不例外。所以，有另一种说法认为闭包是由函数和与其相关的引用环境组合而成的实体。闭包在运行时可以有多个实例，不同的引用环境和相同的函数组合可以产生不同的实例。\n' +
       '\n' +
@@ -17,7 +17,7 @@ const initArticles = [
     'id': 1,
     'title': 'Java编程思想',
     'time': '2018-10-10',
-    'tag': 'Java',
+    'tagId': 0,
     'excerpt': '2018年马上就要结束了，让我们一起见证全世界Python的这一年。今年的榜单功能和去年相差不大，如果你看过去年榜单能够体会几个小改动，太忙了，也许明年能改版一下。榜单内容和去年有了一些区别：由...\n',
     'content': '在计算机科学中，闭包（英语：Closure），又称词法闭包（Lexical Closure）或函数闭包（function closures），是引用了自由变量的函数。这个被引用的自由变量将和这个函数一同存在，即使已经离开了创造它的环境也不例外。所以，有另一种说法认为闭包是由函数和与其相关的引用环境组合而成的实体。闭包在运行时可以有多个实例，不同的引用环境和相同的函数组合可以产生不同的实例。\n' +
       '\n' +
@@ -31,7 +31,7 @@ const initArticles = [
     'id': 2,
     'title': 'Thinking in Java',
     'time': '2018.10.10',
-    'tag': 'Java',
+    'tagId': 0,
     'excerpt': 'The book named Thinking in Java is popular in China.',
     'content': '在计算机科学中，闭包（英语：Closure），又称词法闭包（Lexical Closure）或函数闭包（function closures），是引用了自由变量的函数。这个被引用的自由变量将和这个函数一同存在，即使已经离开了创造它的环境也不例外。所以，有另一种说法认为闭包是由函数和与其相关的引用环境组合而成的实体。闭包在运行时可以有多个实例，不同的引用环境和相同的函数组合可以产生不同的实例。\n' +
       '\n' +
@@ -45,7 +45,7 @@ const initArticles = [
     'id': 3,
     'title': 'Thinking in Python',
     'time': '2018.10.10',
-    'tag': 'Python',
+    'tagId': 1,
     'excerpt': 'The book named Thinking in Python is popular in China.',
     'content': '在计算机科学中，闭包（英语：Closure），又称词法闭包（Lexical Closure）或函数闭包（function closures），是引用了自由变量的函数。这个被引用的自由变量将和这个函数一同存在，即使已经离开了创造它的环境也不例外。所以，有另一种说法认为闭包是由函数和与其相关的引用环境组合而成的实体。闭包在运行时可以有多个实例，不同的引用环境和相同的函数组合可以产生不同的实例。\n' +
       '\n' +
@@ -59,7 +59,7 @@ const initArticles = [
     'id': 4,
     'title': 'Thinking in Kotlin',
     'time': '2018.10.10',
-    'tag': 'Kotlin',
+    'tagId': 2,
     'excerpt': 'The book named Thinking in Kotlin is popular in China.',
     'content': '在计算机科学中，闭包（英语：Closure），又称词法闭包（Lexical Closure）或函数闭包（function closures），是引用了自由变量的函数。这个被引用的自由变量将和这个函数一同存在，即使已经离开了创造它的环境也不例外。所以，有另一种说法认为闭包是由函数和与其相关的引用环境组合而成的实体。闭包在运行时可以有多个实例，不同的引用环境和相同的函数组合可以产生不同的实例。\n' +
       '\n' +
@@ -73,7 +73,7 @@ const initArticles = [
     'id': 5,
     'title': 'Thinking in C++',
     'time': '2018.10.10',
-    'tag': 'C++',
+    'tagId': 3,
     'excerpt': 'The book named Thinking in C++ is popular in China.',
     'content': '在计算机科学中，闭包（英语：Closure），又称词法闭包（Lexical Closure）或函数闭包（function closures），是引用了自由变量的函数。这个被引用的自由变量将和这个函数一同存在，即使已经离开了创造它的环境也不例外。所以，有另一种说法认为闭包是由函数和与其相关的引用环境组合而成的实体。闭包在运行时可以有多个实例，不同的引用环境和相同的函数组合可以产生不同的实例。\n' +
       '\n' +

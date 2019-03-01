@@ -3,7 +3,7 @@ import styles from './index.css';
 
 export default ({tag})=>(
   <div className={styles["tag-item"]}>
-    <a href={"#"}>
+    <a href={`/tag/${tag.id}`}>
       {tag.tag_name}
     </a>
     <span>

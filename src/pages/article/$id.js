@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 
 const mapStateToProps = state => ({
   articles: state.articles,
+  tags:state.tags
 });
 
 export default connect(mapStateToProps)(ArticlePage);
