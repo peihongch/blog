@@ -13,7 +13,7 @@ export default ({ article,tag}) => (
       <div className={styles['article-meta-time']}>{article.time}</div>
       <span className={styles['article-meta-slash']}>{'/'}</span>
       <div className={styles['article-meta-tag']}>
-        <a href={`/tag/${article.tagId}`}>
+        <a href={`/tags/${article.tagId}`}>
           {tag.tag_name}
         </a>
       </div>

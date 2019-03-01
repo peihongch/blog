@@ -7,8 +7,8 @@ const mapStateToProps = state => ({
   tags: state.tags,
 });
 
-export default () => (
+export default connect(mapStateToProps)((props) => (
   <div className={styles['tag-list-container']}>
-    {connect(mapStateToProps)(TagList)}
+    <TagList {...props}/>
   </div>
-)
+));

@@ -14,4 +14,4 @@ class TagList extends React.Component {
   }
 }
 
-export default Tag;
+export default TagList;

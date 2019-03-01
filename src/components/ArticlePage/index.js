@@ -43,7 +43,7 @@ class ArticlePage extends React.Component {
               </div>
               {' / '}
               <div className={styles['article-page-meta-tag']}>
-                <a href={`/tag/${article.tagId}`}>
+                <a href={`/tags/${article.tagId}`}>
                   {tag_name}
                 </a>
               </div>

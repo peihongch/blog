@@ -14,7 +14,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "redux": "latest",
-    "react-redux": "latest"
+    "react-redux": "latest",
+    "react-router": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
