@@ -3,9 +3,17 @@ import styles from './index.css';
 import SearchBar from '../SearchBar';
 import SearchList from '../SearchList';
 
-export default ()=>(
-  <div className={styles['search-page']}>
-    <SearchBar/>
-    <SearchList/>
-  </div>
-)
+class SearchPage extends React.Component{
+  render() {
+    const {results} = this.props;
+
+    return (
+      <div className={styles['search-page']}>
+        <SearchBar/>
+        <SearchList results={results}/>
+      </div>
+    );
+  }
+}
+
+export default SearchPage;

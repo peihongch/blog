@@ -1,8 +1,13 @@
 import React from 'react';
 import SearchPage from '../../components/SearchPage';
+import { connect } from 'react-redux';
 
-export default () => (
+const mapStateToProps=state=>({
+  results:state.searchResults
+});
+
+export default connect(mapStateToProps)((props) => (
   <div>
-    <SearchPage/>
+    <SearchPage {...props}/>
   </div>
-)
+))

@@ -4,7 +4,7 @@ import styles from './index.css';
 export default ({item})=>(
   <div className={styles['search-list-item']}>
     <div className={styles['search-list-item-title']}>
-      <a href={"#"}>
+      <a href={`/article/${item.id}`}>
         {item.title}
       </a>
     </div>
